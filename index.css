@@ -1,6 +1,6 @@
 .code_section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .code_framework {
@@ -11,6 +11,7 @@
 
 .code_structure {
     display: flex;
+    height: 280px;
 }
 
 .code_folder {
@@ -22,12 +23,10 @@
     background-color: #6A6653;
   
 }
-.code_folder_name {
-}
+
 
 .code_outline {
     border: 1px solid black;
-    
 }
 .file {
     background-color: #23241F;
@@ -54,6 +53,9 @@
 }
 .purple {
     color: #D762C6;
+}
+.lightpurple {
+    color: #D761D3;
 }
 .underline {
     text-decoration: underline;

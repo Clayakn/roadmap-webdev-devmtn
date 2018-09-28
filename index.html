@@ -48,9 +48,12 @@
                         </div>
                         <div class="code_outline file">
                                 <p><span class="blue">const</span> <span class="white">express</span> <span class="red">=</span> <span></span> <span class="blue">require</span><span class="gold"> ( </span> <span class="yellow">'express'</span> <span class="gold"> ) </span> <span class="white"> ; </span></p>
+                                <br/>
                                 <p><span class="blue">const</span> <span class="white">app</span> <span class="red"> = </span> <span class="green">express</span> <span class="gold">()</span><span class="white"> ; </span></p>
+                                <br/>
                                 <p><span class="white">PORT</span> <span class="red"> = </span> <span class="purple">4000</span> <span class="white"> ; </span></p>
-                                <p><span class="white">app.</span><span class="green">listen</span><span class="gold"> ( </span><span class="white">PORT,</span> <span class="purple">()</span><span class="blue"> => console</span><span class="white">.</span><span class="blue">log</span><span class="purple"> ( </span><span class="yellow">'Server is listening on port '</span> <span class="red"> + </span> <span class="white">PORT</span><span class="purple"> ) </span> <span class="gold"> ) </span><span class="white"> ; </span></p>
+                                <p><span class="white">app.</span><span class="green">listen</span><span class="gold"> ( </span><span class="white">PORT,</span> <span class="purple">()</span><span class="blue"> => </span> <span class="purple"> { </span> </p>
+                                <p><span class="blue">console</span><span class="white">.</span><span class="blue">log</span><span class="purple"> ( </span><span class="yellow">'Server is listening on port '</span> <span class="red"> + </span> <span class="white">PORT</span><span class="blue"> ) </span> <span class="purple"> } </span> <span class="gold"> ) </span><span class="white"> ; </span></p>
                         </div>
                     </div>
                 </div>
@@ -65,25 +68,16 @@
                             </div>
                             <div class="code_outline file">
                                 <p><span class="red">DROP TABLE IF EXISTS</span> <span class="white">users</span><span class="white"> ; </span></p>
+                                <br/>
                                 <p><span class="red">CREATE TABLE</span> <span class="white">users</span> <span class="gold"> ( </span></p>
                                 <p><span class="white">id</span> <span class="blue">SERIAL</span> <span class="red">PRIMARY KEY</span></p>
-                                <p><span class="white">, email</span> VARCHAR(100) NOT NULL</p>
-                                <p><span class="white">, username</span> VARCHAR(100)</p>
-                                <p><span class="white">, profile_pic </span> TEXT</p>
-                                <p>);</p>
-                                <p>SELECT * FROM users;</p>
+                                <p><span class="white">, email</span> <span class="red">VARCHAR</span><span class="lightpurple"> ( </span><span class="purple">100</span><span class="lightpurple"> ) </span> <span class="red"> NOT NULL </span></p>
+                                <p><span class="white">, username</span> <span class="red">VARCHAR</span><span class="lightpurple"> ( </span><span class="purple">100</span><span class="lightpurple"> ) </span></p>
+                                <p><span class="white">, profile_pic </span> <span class="red">TEXT</span></p>
+                                <p><span class="gold"> ) </span><span class="white"> ; </span></p>
+                                <br/>
+                                <p><span class="red">SELECT * FROM</span> <span class="white">users; </span></p>
                             </div>
-                    </div>
-                </div>
-                <div class="code_framework">
-                    <div>
-                        <h4>V8 Engine (C / C++)</h4>
-                    </div>
-                    <div class="code_outline">
-                            <p>Stack</p>
-                            <p>Node API</p>
-                            <p>(Arrow) Event Loop</p>
-                            <p>Event Queue</p>
                     </div>
                 </div>
             </div>
