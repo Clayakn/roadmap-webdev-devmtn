@@ -1,0 +1,60 @@
+.code_section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.code_framework {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.code_structure {
+    display: flex;
+}
+
+.code_folder {
+    background-color: #1C1D1A;
+    color: #C5C5C5;
+}
+
+.code_file_name {
+    background-color: #6A6653;
+  
+}
+.code_folder_name {
+}
+
+.code_outline {
+    border: 1px solid black;
+    
+}
+.file {
+    background-color: #23241F;
+    padding: 0 10px;
+}
+
+.red {
+    color: #F31B66;
+}
+.white {
+    color: white;
+}
+.gold {
+    color: #FFD300;
+}
+.yellow {
+    color: #E3D762;
+}
+.blue {
+    color: #55D4EE;
+}
+.green {
+    color: #9BDC00
+}
+.purple {
+    color: #D762C6;
+}
+.underline {
+    text-decoration: underline;
+}

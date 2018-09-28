@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Roadmap WebDev</title>
+    </head>
+    <body>
+        <h1>Roadmap Web Development at DevMountain</h1>
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./index.css">
+        <main>
+            <h2>Code</h2>
+            <div class="code_section"> 
+                <div class="code_framework"> 
+                    <div>
+                        <h4>Reactjs</h4>
+                    </div>  
+                    <div class="code_structure">              
+                        <div class="code_folder">
+                            <p class="code_folder_name">(Arrow) (folder pic) src</p>
+                            <p class="code_file_name">(JS) App.js</p>
+                        </div>
+                        <div class="code_outline file">
+                            <p><span class="red">import</span> <span class="white">React,</span> <span class="gold"> { </span> <span class="white">Component</span> <span class="gold"> } </span> <span class="red">from</span> <span class="yellow">'react'</span> <span class="white"> ; </span></p>
+                            <br/>
+                            <p><span class="blue">class</span> <span class="green underline">App</span> <span class="red">extends</span> <span class="green underline">Component</span> <span class="yellow"> { </span></p>
+                            <br/>
+                            <p style="padding-left: 10px"><span class="green">render</span> <span class="purple">()</span> <span class="yellow"> { </span></p>
+                            <p style="padding-left: 20px"> <span class="red">return</span> <span class="blue"> ( </span></p>
+                            <p style="padding-left: 30px"> <span class="white"> < </span> <span class="red">div</span> <span class="white"> > </span> </p>
+                            <p style="padding-left: 40px"> <span class="white"> < </span> <span class="red">p</span> <span class="white"> > </span> <span class="white">Hello, World!</span> <span class="white"> < </span> <span class="white"> / </span> <span class="red">p</span> <span class="white"> > </span> </p>
+                            <p style="padding-left: 30px"> <span class="white"> < </span> <span class="white"> / </span> <span class="red">div</span> <span class="white"> > </span> </p>
+                            <p style="padding-left: 20px"> <span class="blue"> ) </span><span class="white"> ; </span> </p>
+                            <p style="padding-left: 10px"> <span class="purple"> } </span><span class="white"> ; </span> </p>
+                            <p> <span class="yellow"> } </span><span class="white"> ; </span> </p>
+                            <br/>
+                            <p> <span class="red">export default</span> <span class="white">App;</span> </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="code_framework">
+                    <div>
+                        <h4>Expressjs</h4>
+                    </div>  
+                    <div class="code_structure"> 
+                        <div class="code_folder">
+                            <p class="code_folder_name">(Arrow) (folder pic) server</p>
+                            <p class="code_file_name">(JS) index.js</p>
+                        </div>
+                        <div class="code_outline file">
+                                <p><span class="blue">const</span> <span class="white">express</span> <span class="red">=</span> <span></span> <span class="blue">require</span><span class="gold"> ( </span> <span class="yellow">'express'</span> <span class="gold"> ) </span> <span class="white"> ; </span></p>
+                                <p><span class="blue">const</span> <span class="white">app</span> <span class="red"> = </span> <span class="green">express</span> <span class="gold">()</span><span class="white"> ; </span></p>
+                                <p><span class="white">PORT</span> <span class="red"> = </span> <span class="purple">4000</span> <span class="white"> ; </span></p>
+                                <p><span class="white">app.</span><span class="green">listen</span><span class="gold"> ( </span><span class="white">PORT,</span> <span class="purple">()</span><span class="blue"> => console</span><span class="white">.</span><span class="blue">log</span><span class="purple"> ( </span><span class="yellow">'Server is listening on port '</span> <span class="red"> + </span> <span class="white">PORT</span><span class="purple"> ) </span> <span class="gold"> ) </span><span class="white"> ; </span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="code_framework">
+                        <div>
+                            <h4>PostgreSQL</h4>
+                        </div>  
+                        <div class="code_structure"> 
+                            <div class="code_folder">
+                                <p class="code_folder_name">(Arrow) (folder pic) server</p>
+                                <p class="code_file_name">(JS) index.js</p>
+                            </div>
+                            <div class="code_outline file">
+                                <p><span class="red">DROP TABLE IF EXISTS</span> <span class="white">users</span><span class="white"> ; </span></p>
+                                <p><span class="red">CREATE TABLE</span> <span class="white">users</span> <span class="gold"> ( </span></p>
+                                <p><span class="white">id</span> <span class="blue">SERIAL</span> <span class="red">PRIMARY KEY</span></p>
+                                <p><span class="white">, email</span> VARCHAR(100) NOT NULL</p>
+                                <p><span class="white">, username</span> VARCHAR(100)</p>
+                                <p><span class="white">, profile_pic </span> TEXT</p>
+                                <p>);</p>
+                                <p>SELECT * FROM users;</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="code_framework">
+                    <div>
+                        <h4>V8 Engine (C / C++)</h4>
+                    </div>
+                    <div class="code_outline">
+                            <p>Stack</p>
+                            <p>Node API</p>
+                            <p>(Arrow) Event Loop</p>
+                            <p>Event Queue</p>
+                    </div>
+                </div>
+            </div>
+            <h2>Tool Integration</h2>
+            <p>
+                Command Line
+                <span> -> </span>
+                Project 
+                <span> -> </span>
+                Github  
+                <p>Cloud Hosting</p>
+                <p>Testing</p>
+                <p>Mobile</p>
+            </p>
+            <h2>Picture</h2>
+            <p>
+                Front-End
+                <span> -> </span>
+                Internet 
+                <span> -> </span>
+                Back-End
+                <span> -> </span>
+                API 
+                <span> -> </span>
+                Database
+            </p>
+
+        </main>
+    </body>
+</html>
